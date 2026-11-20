@@ -2,6 +2,7 @@
 """
 Portable knowledge-base search script for tiaotiao-physics-3b1b (Scheme B: Local-first + Bundled kb.zip).
 """
+from __future__ import annotations
 import os
 import subprocess
 import sys
