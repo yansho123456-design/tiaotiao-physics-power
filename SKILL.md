@@ -51,15 +51,13 @@ author: 跳跳学长 × 3Blue1Brown 全动画版
 4. **`04 formula`（具体题目公式推导与双验算）**：逐行写出本题完整公式与代入过程（触发 `sfx: "write"` 与 `"ding"`）。
 5. **`05 outro`（结尾复盘与防坑总结）**：标准答案汇总 + 跳跳考场防坑三条总结。
 
-### 第 4 步：合成「1.3x 人声 + BGM + 音效」音轨并打包跨设备单文件 HTML
-1. 合成混音音轨（`build/mix.wav`，自动混入 1.3x 配音、共享 BGM 与转场/节点音效）与 `build/timeline.js`：
-   ```bash
-   python3 scripts/build_audio.py <课题目录>
-   ```
-2. 渲染 1080p MP4 并封装为**唯一一个跨设备通用的单文件 `.html`（支持直接右键 → 将视频另存为 MP4）**：
-   ```bash
-   python3 scripts/bundle_single_html.py <课题目录>
-   ```
+### 第 4 步：一键构建跨设备单文件 HTML（自动适配电脑与豆包/WorkBuddy/千问手机端）
+运行统一构建脚本：
+```bash
+python3 scripts/build_course.py <课题目录>
+```
+- **电脑端（有 `playwright` + `ffmpeg`）**：自动合成 `1.3x 人声 + 共享 BGM + 音效` 并渲染内嵌 1080p MP4 的单文件 `<课题名>_course.html`（支持右键另存为视频）。
+- **手机端 / 云端沙盒（豆包手机版、WorkBuddy、千问等无浏览器/无 ffmpeg 环境）**：自动零依赖切换为轻量单文件 `<课题名>_course.html`（仅需 Python 标准库，内置 Web Speech 1.3x 语音与 Web Audio 音效，手机打开即播）。
 
 ---
 
