@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Build the unified single-file course HTML (<lesson_name>_course.html) for tiaotiao-physics-3b1b.
+Build the unified single-file course HTML (<lesson_name>_course.html) for tiaotiao-physics-power.
 Embeds the 1080p MP4 (with 1.3x narration, 3B1B BGM, and SFX) as a Base64 -> Blob URL inside a single
 portable HTML file with chapter pills and native right-click "Save Video As... (将视频另存为)".
 """

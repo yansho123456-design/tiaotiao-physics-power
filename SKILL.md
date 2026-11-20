@@ -1,5 +1,5 @@
 ---
-name: tiaotiao-physics-3b1b
+name: tiaotiao-physics-power
 display_name: 跳跳物理 3B1B 全动画课程（含BGM音效库）
 display_name_en: Tiaotiao Physics Full-3B1B Course Video (with BGM & SFX)
 description: 在 tiaotiao-physics-lab 基础上升级的独立技能：无论是学生拍图还是打字输入，开头第一幕均不贴白底原图照片，而是将题干、配图、装置、表格全部重绘为 100% 纯粹的 3Blue1Brown 动态矢量动画展示；后续板块包含物理过程可视化、跳跳课堂相似母题截图、公式推导与结尾防坑总结，内置免费共享 BGM 与音效库（转场/高亮/公式/锁定答案音效），最终输出支持任意设备打开且可右键另存为 MP4 视频的单文件 HTML。

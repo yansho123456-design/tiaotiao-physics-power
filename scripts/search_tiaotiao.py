@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Portable knowledge-base search script for tiaotiao-physics-3b1b (Scheme B: Local-first + Bundled kb.zip).
+Portable knowledge-base search script for tiaotiao-physics-power (Scheme B: Local-first + Bundled kb.zip).
 """
 from __future__ import annotations
 import os

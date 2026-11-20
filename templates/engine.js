@@ -1,5 +1,5 @@
 /**
- * 3Blue1Brown 16:9 (1920x1080) All-Animation Course Video Engine for tiaotiao-physics-3b1b.
+ * 3Blue1Brown 16:9 (1920x1080) All-Animation Course Video Engine for tiaotiao-physics-power.
  * Includes Draw3B1B problem board, progressive vector table, and condition chip primitives
  * so Scene 1 (01 intro) renders any photographed or typed problem in 100% pure 3B1B animation.
  */

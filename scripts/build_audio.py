@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Synthesize scene-by-scene 1.3x narration audio + shared 3B1B BGM + sound effects (whoosh/pop/write/ding)
-into build/mix.wav + build/timeline.js + build/narration.srt for tiaotiao-physics-3b1b.
+into build/mix.wav + build/timeline.js + build/narration.srt for tiaotiao-physics-power.
 """
 import asyncio
 import json

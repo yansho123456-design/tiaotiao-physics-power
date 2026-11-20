@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Physics calculation & verification kernel for tiaotiao-physics-3b1b.
+Physics calculation & verification kernel for tiaotiao-physics-power.
 """
 from __future__ import annotations
 from dataclasses import dataclass

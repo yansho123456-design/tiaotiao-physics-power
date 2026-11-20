@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-High-speed parallel 1920x1080 MP4 video exporter for tiaotiao-physics-3b1b.
+High-speed parallel 1920x1080 MP4 video exporter for tiaotiao-physics-power.
 """
 import asyncio
 import json
